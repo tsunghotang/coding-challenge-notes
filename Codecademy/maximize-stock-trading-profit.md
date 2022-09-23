@@ -29,6 +29,8 @@ Output: array
 * Calculate the profit/loss from current sell - buy. Assisgn to variable `sum`
 * If `sum` is higher than the maxprofit reassign `maxProfit` Solutions
 
+## Solutions
+
 ### JavaScript 
 
 ```javascript
@@ -43,8 +45,7 @@ function maxProfitDays(stockPrices) {
       }
     }
   }
-
-  return maxProfit.slice(1)
+	return maxProfit.slice(1)
 }
 ```
 

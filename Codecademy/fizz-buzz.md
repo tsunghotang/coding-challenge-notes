@@ -58,9 +58,6 @@ function fizzbuzz(n) {
     }
     counter += 1
   }
-return array
+  return array
 }
-
-// Leave this line for testing:
-module.exports = fizzbuzz;
 ```
