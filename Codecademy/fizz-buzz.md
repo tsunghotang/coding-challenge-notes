@@ -10,8 +10,6 @@ For example, `fizzbuzz(16)` should return `[1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 
 
 ---
 
-
-
 ## PEDAC
 
 Input: integer
@@ -28,7 +26,7 @@ Output: array of integers and strings
 
 1. Initialize a `counter` variable assign it the value `1`
 2. Initialize an empty array `arr`
-3. Initiate a `while` loop. Break when `counter` variable is >= input
+3. Initiate a `while` loop. Break when `counter` variable is <= input
    1. Initialize `str` variable and assign it an empty str - within the loop so it gets rest to `''` each iteration
    2. If `counter` variable is a multiple of 3 push 'Fizz' to the `str` variable
    3. If `counter` variable is a multiple of 5 push 'Buzz' to the `str` variable
@@ -47,10 +45,10 @@ function fizzbuzz(n) {
   let counter = 1
   const array = []
   
-  while(counter <= n) {
+  while (counter <= n) {
     let str = ''
-    if(counter % 3 === 0) str+='Fizz' 
-    if(counter % 5 === 0) str +='Buzz'
+    if (counter % 3 === 0) str+='Fizz' 
+    if (counter % 5 === 0) str +='Buzz'
     if (str) {
       array.push(str)
     } else {
