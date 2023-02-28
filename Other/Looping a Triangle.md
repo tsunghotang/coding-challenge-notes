@@ -17,13 +17,21 @@ Write a loop that makes seven calls to `console.log` to output following triangl
 
 ---
 
+
+
+Takeaway
+
+* Initalization var does not have to be a counter.As long as looping con
+
+
+
 ## Pseudocode
 
-Write a loop that calls `console.log` seven times and increments the number of `#` printed
+Write a loop that calls `console.log` seven times and increments the number of `'#'` printed
 
 
 
-* Initialize a for loop
+* Initialize a `for` loop
   * Set the initalization variable to a string with the value `#`
   * Use the `.length` property on the variable to track the length of the string
     * Break the loop if the length is over 7
